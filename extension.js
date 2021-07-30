@@ -19,9 +19,10 @@ function activate(context) {
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('copypasta.helloWorld', function () {
+	let disposable = vscode.commands.registerCommand('copypasta.copypasta', function () {
 
-		vscode.commands.executeCommand("editor.action.clipboardCutAction").then(e => {
+		vscode.commands.executeCommand("editor.action.clipboardCutAction").then(() => {
+
 			vscode.env.clipboard.readText().then((text) => {
 				let clip = text;
 				let query = clip;
@@ -69,16 +70,13 @@ function scrapeCode(link) {
 			console.log(code)
 			vscode.commands.executeCommand("editor.action.clipboardPasteAction")
 		})
-		.catch(function (err) {
+		.catch(function () {
 			//handle error
 		});
 }
 
 
 // this method is called when your extension is deactivated
-
-
-
 
 
 function deactivate() {}

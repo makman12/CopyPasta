@@ -1,8 +1,12 @@
 {
 	"name": "copypasta",
 	"displayName": "CopyPasta",
-	"description": "We all know that you dont even look at the questions in Stack Overflow. Why wouldn't you just copypasta the first comments code section?",
+	"description": "We all know that you don't even look at the questions in Stack Overflow. Why wouldn't you just copypasta the first comments code section?",
 	"version": "0.0.1",
+	"publisher": "makman12",
+	"repository": {
+		"url": "https://github.com/makman12/CopyPasta.git"
+	},
 	"engines": {
 		"vscode": "^1.58.0"
 	},
@@ -10,16 +14,16 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:copypasta.helloWorld"
+		"onCommand:copypasta.copypasta"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [{
-			"command": "copypasta.helloWorld",
+			"command": "copypasta.copypasta",
 			"title": "Copy Pasta"
 		}],
 		"keybindings": [{
-			"command": "copypasta.helloWorld",
+			"command": "copypasta.copypasta",
 			"key": "ctrl+enter",
 			"mac": "cmd+enter",
 			"when": "editorTextFocus"
