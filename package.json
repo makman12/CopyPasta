@@ -18,20 +18,16 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "copypasta.copypasta",
-				"title": "Copy Pasta"
-			}
-		],
-		"keybindings": [
-			{
-				"command": "copypasta.copypasta",
-				"key": "ctrl+enter",
-				"mac": "cmd+enter",
-				"when": "editorTextFocus"
-			}
-		]
+		"commands": [{
+			"command": "copypasta.copypasta",
+			"title": "Copy Pasta"
+		}],
+		"keybindings": [{
+			"command": "copypasta.copypasta",
+			"key": "ctrl+enter",
+			"mac": "cmd+enter",
+			"when": "editorTextFocus"
+		}]
 	},
 	"scripts": {
 		"lint": "eslint .",
@@ -50,6 +46,7 @@
 		"vscode-test": "^1.5.2"
 	},
 	"dependencies": {
+		"request": "^2.34",
 		"cheerio": "^1.0.0-rc.10",
 		"clipboardy": "^2.3.0",
 		"request-promise": "^4.2.6"
