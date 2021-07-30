@@ -18,16 +18,20 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-			"command": "copypasta.copypasta",
-			"title": "Copy Pasta"
-		}],
-		"keybindings": [{
-			"command": "copypasta.copypasta",
-			"key": "ctrl+enter",
-			"mac": "cmd+enter",
-			"when": "editorTextFocus"
-		}]
+		"commands": [
+			{
+				"command": "copypasta.copypasta",
+				"title": "Copy Pasta"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "copypasta.copypasta",
+				"key": "ctrl+enter",
+				"mac": "cmd+enter",
+				"when": "editorTextFocus"
+			}
+		]
 	},
 	"scripts": {
 		"lint": "eslint .",
