@@ -85,5 +85,3 @@ module.exports = {
 	activate,
 	deactivate
 }
-
-plt change
