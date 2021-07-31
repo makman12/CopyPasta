@@ -4,9 +4,6 @@ const vscode = require('vscode');
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 const clipboardy = require('clipboardy');
-const {
-	privateEncrypt
-} = require('crypto');
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 
