@@ -5,3 +5,8 @@ CopyPasta is a VsCode Extension allows you to copy paste first answer to your qu
 ## Features
 
 In your text editor just write what you would normally search on google, selected it then press ctrl+enter you will get what you want. 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 288f02077ce74e902afdc9036ca2839db0555b4e
