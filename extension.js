@@ -4,6 +4,9 @@ const vscode = require('vscode');
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 const clipboardy = require('clipboardy');
+const {
+	privateEncrypt
+} = require('crypto');
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 
@@ -20,6 +23,8 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('copypasta.copypasta', function () {
+		let language = vscode.window.activeTextEditor.document.languageId
+		console.log(language)
 
 		vscode.commands.executeCommand("editor.action.clipboardCutAction").then(() => {
 
@@ -28,8 +33,9 @@ function activate(context) {
 				let query = clip;
 				/* code */
 				console.log(query)
-				query = "python+stackoverflow+" + query.replace(" ", "+")
 
+				query = language + "+stackoverflow+" + query.replace(" ", "+")
+				console.log(query)
 				let url1 = "https://www.google.com/search?q=" + query
 				getGoogle(url1)
 			});
