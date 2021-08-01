@@ -4,6 +4,7 @@
 	"description": "We all know that you don't even look at the questions in Stack Overflow. Why wouldn't you just copypasta the first comments code section?",
 	"version": "0.0.5",
 	"publisher": "makman12",
+	"icon": "copypasta.png",
 	"repository": {
 		"url": "https://github.com/makman12/CopyPasta.git"
 	},
@@ -18,20 +19,16 @@
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "copypasta.copypasta",
-				"title": "Copy Pasta"
-			}
-		],
-		"keybindings": [
-			{
-				"command": "copypasta.copypasta",
-				"key": "ctrl+enter",
-				"mac": "cmd+enter",
-				"when": "editorTextFocus"
-			}
-		]
+		"commands": [{
+			"command": "copypasta.copypasta",
+			"title": "Copy Pasta"
+		}],
+		"keybindings": [{
+			"command": "copypasta.copypasta",
+			"key": "ctrl+enter",
+			"mac": "cmd+enter",
+			"when": "editorTextFocus"
+		}]
 	},
 	"scripts": {
 		"lint": "eslint .",
