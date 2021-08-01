@@ -2,7 +2,7 @@
 	"name": "copypasta",
 	"displayName": "CopyPasta",
 	"description": "We all know that you don't even look at the questions in Stack Overflow. Why wouldn't you just copypasta the first comments code section?",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "makman12",
 	"icon": "copypasta.png",
 	"repository": {
