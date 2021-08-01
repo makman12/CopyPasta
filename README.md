@@ -9,9 +9,9 @@ In your text editor just write what you would normally search on Google, then pr
 Currently there two advanced options;
 
 - [x] If you add '-s' to the end of the query sentence it will open the page for you.  
-    - [x]Also if you just write '-s' and press ctrl+enter it will open the page for your last search.
+    - [x] Also if you just write '-s' and press ctrl+enter it will open the page for your last search.
 
-- [x]Command will bring you the code section of the first comment if you want to get other comments you can just call it by number and then press ctrl+enter so if you just searched for a query and then wanted to see second comments code section you have to just type '2' and then press ctrl+enter. No need to searched it again. 
+- [x] Command will bring you the code section of the first comment if you want to get other comments you can just call it by number and then press ctrl+enter so if you just searched for a query and then wanted to see second comments code section you have to just type '2' and then press ctrl+enter. No need to searched it again. 
 
 
 ## Usage
