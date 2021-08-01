@@ -18,4 +18,4 @@ Currently there two advanced options;
 Obviously if you have spesific enough problems you should check them out by yourself but if you just wanna know the syntax that you used for CopyPasta is your helper.
 
 
-[![Animation384fb7fc6ce1ce8b.gif](https://s6.gifyu.com/images/Animation384fb7fc6ce1ce8b.gif)]
+![Animation384fb7fc6ce1ce8b.gif](https://s6.gifyu.com/images/Animation384fb7fc6ce1ce8b.gif)
